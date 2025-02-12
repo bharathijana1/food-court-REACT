@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, Links } from "react-router-dom";
-import logoImg from '../src/Components/img/food-tray.png';
+import logoImg from './img/food-tray.png';
 
 
 const Navbar = ({cart}) => {

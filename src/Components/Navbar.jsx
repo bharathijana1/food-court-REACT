@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, Links } from "react-router-dom";
+import logoImg from '../src/Components/img/food-tray.png';
 
 
 const Navbar = ({cart}) => {
@@ -7,7 +8,7 @@ const Navbar = ({cart}) => {
     <div className='bg-yellow-700 flex justify-between items-center p-1'>
         <div>
             <Link to="/" className='flex justify-center items-center gap-1 md:gap-2 '>
-            <img src="../src/Components/img/food-tray.png" alt="logo" className='w-10 md:w-16 md:ms-4 p-1' />
+            <img src={logoImg} alt="logo" className='w-10 md:w-16 md:ms-4 p-1' />
             <h1 className='text-xl md:text-2xl text-white font-medium'>Food Court</h1>
             </Link>
         </div>
